@@ -40,8 +40,8 @@ class GitHubHomeScreen extends StatelessWidget {
             RepositoryModel repo = controller.repositories[index];
             final firstLetter = repo.name.isNotEmpty ? repo.name[0].toUpperCase() : '?';
             return GestureDetector(
-              onTap: (){
-                Get.to(RepositoryDetailsScreen(repository: repo,));
+              onTap: () {
+                Get.to(() => RepositoryDetailsScreen(repository: repo,));
               },
               child: Card(
                 elevation: 1,
