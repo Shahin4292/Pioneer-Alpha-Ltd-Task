@@ -6,12 +6,12 @@ A new Flutter project.
 
 ### 1. Clone the repository
 
-[//]: # (git clone https://github.com/your-username/github-repo-explorer.git)
+## (git clone https://github.com/your-username/github-repo-explorer.git)
 
-[//]: # (cd github-repo-explorer)
+## (cd github-repo-explorer)
 
-[//]: # (flutter pub get)
+## (flutter pub get)
 
-[//]: # (flutter run)
+## (flutter run)
 
 
