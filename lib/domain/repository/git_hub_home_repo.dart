@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:pioneer_alpha_ltd_task/model/git_hub_model.dart';
-import 'package:pioneer_alpha_ltd_task/utils/app_constants.dart';
+import 'package:pioneer_alpha_ltd_task/core/utils/app_constants.dart';
+import 'package:pioneer_alpha_ltd_task/data/model/git_hub_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class RepoService {

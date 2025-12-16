@@ -1,7 +1,4 @@
-
-import 'package:get/get_core/src/get_main.dart';
-import 'package:get/get_navigation/src/extension_navigation.dart';
-import 'package:get/get_utils/src/extensions/context_extensions.dart';
+import 'package:get/get.dart';
 
 class Dimensions {
   static double fontSizeExtraSmall = Get.context!.width >= 1300 ? 14 : 10;
@@ -22,4 +19,5 @@ class Dimensions {
   static const double radiusLarge = 15.0;
   static const double radiusExtraLarge = 20.0;
   static const double radiusSizeExtraLarge = 25.0;
+  static const double extraLarge = 35.0;
 }

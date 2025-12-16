@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import '../model/git_hub_model.dart';
-import '../features/git_hub_search/repository/git_hub_search_repo.dart';
+import 'package:pioneer_alpha_ltd_task/data/model/git_hub_model.dart';
+import 'package:pioneer_alpha_ltd_task/domain/repository/git_hub_home_repo.dart';
 
 enum SortOption { stars, updated }
 
